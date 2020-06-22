@@ -50,7 +50,7 @@ public class AtestinchinsTest {
         options.addArguments("--incognito");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--start-maximized");
-       //options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         baseUrl = "https://bamboo-gardens.com/";
         WebDriver.Timeouts implicitlyWait = driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);

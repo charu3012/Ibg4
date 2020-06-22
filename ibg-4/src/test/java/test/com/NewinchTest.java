@@ -58,7 +58,7 @@ public class NewinchTest {
         options.addArguments("--incognito");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--start-maximized");
-      //  options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         baseUrl = "https://www.inchinsonline.com/login";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

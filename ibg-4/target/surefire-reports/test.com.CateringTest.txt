@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.com.CateringTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.83 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.196 sec
